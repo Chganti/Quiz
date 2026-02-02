@@ -11,35 +11,35 @@ const questions = [
   {
     question: "Which method is used to convert JSON to a JavaScript object?",
     answers: [
-      { text: "JSON.parse()", correct: true },
       { text: "JSON.stringify()", correct: false },
       { text: "JSON.convert()", correct: false },
+      { text: "JSON.parse()", correct: true },
       { text: "JSON.object()", correct: false }
     ]
   },
   {
     question: "What does 'async' keyword do?",
     answers: [
-      { text: "Makes a function return a Promise", correct: true },
       { text: "Stops code execution", correct: false },
       { text: "Runs code faster", correct: false },
-      { text: "Creates a loop", correct: false }
+      { text: "Creates a loop", correct: false },
+      { text: "Makes a function return a Promise", correct: true }
     ]
   },
   {
     question: "Which method is used to add an element at the end of an array?",
     answers: [
-      { text: "push()", correct: true },
       { text: "pop()", correct: false },
       { text: "shift()", correct: false },
+      { text: "push()", correct: true },
       { text: "unshift()", correct: false }
     ]
   },
   {
     question: "What is the default value of an uninitialized variable?",
     answers: [
-      { text: "undefined", correct: true },
       { text: "null", correct: false },
+      { text: "undefined", correct: true },
       { text: "0", correct: false },
       { text: "NaN", correct: false }
     ]
@@ -56,10 +56,10 @@ const questions = [
   {
     question: "Which array method returns a new array?",
     answers: [
-      { text: "map()", correct: true },
       { text: "forEach()", correct: false },
       { text: "push()", correct: false },
-      { text: "pop()", correct: false }
+      { text: "pop()", correct: false },
+      { text: "map()", correct: true }
     ]
   },
   {
@@ -74,9 +74,9 @@ const questions = [
   {
     question: "Which method is used to attach an event handler?",
     answers: [
-      { text: "addEventListener()", correct: true },
       { text: "addEvent()", correct: false },
       { text: "onClick()", correct: false },
+      { text: "addEventListener()", correct: true },
       { text: "attachEvent()", correct: false }
     ]
   },
